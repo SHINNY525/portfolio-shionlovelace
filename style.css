@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Kaisei Tokumin';
+    src: url(fonts/KaiseiTokumin-Regular.ttf) format('truetype');
+}
+
 body {
     background: linear-gradient(#252525, #26282F);
     color: #FFFFFF;
+    font-family: 'Kaisei Tokumin', 'Noto Serif', 'Merriweather';
+    margin: 20px 70px 20px 70px;
 }
