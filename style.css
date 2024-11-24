@@ -3,22 +3,49 @@
     src: url(fonts/KaiseiTokumin-Regular.ttf) format('truetype');
 }
 
+
 body {
     background: #26282F;
     color: #FFFFFF;
-    font-family: 'Kaisei Tokumin', 'Noto Serif', 'Merriweather';
+    font-family: 'Kaisei Tokumin', Helvetica, sans-serif;
     /*margin: 20px 90px 20px 90px;*/
 }
 
 header{
-    margin: 20px 90px 0 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px 0 70px;
     border-bottom: 2px solid #FFFFFF;
+}
 
+.name-header{
+    font-size: 40px;
+    text-shadow: #B0B0B0 1px 0 10px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.jobtitle-header{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.description{
+    line-height: 1.3;
+    padding-left: 20px;
+    margin: 0; 
+}
+
+.two-logos{
+    padding-right: 20px;
+    gap: .75em;
+    display: flex;
+    align-items: center;
 }
 
 nav {
     background: #26282F;
-    padding: 1px;
+    padding: 2px;
     position: sticky;
     top: 0px;
 }
@@ -26,7 +53,7 @@ nav {
 .navigation {
     gap: 3em;
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
