@@ -4,8 +4,41 @@
 }
 
 body {
-    background: linear-gradient(#252525, #26282F);
+    background: #26282F;
     color: #FFFFFF;
     font-family: 'Kaisei Tokumin', 'Noto Serif', 'Merriweather';
-    margin: 20px 70px 20px 70px;
+    /*margin: 20px 90px 20px 90px;*/
+}
+
+header{
+    margin: 20px 90px 0 90px;
+    border-bottom: 2px solid #FFFFFF;
+
+}
+
+nav {
+    background: #26282F;
+    padding: 1px;
+    position: sticky;
+    top: 0px;
+}
+
+.navigation {
+    gap: 3em;
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-decoration-color: grey;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: underline;
 }
