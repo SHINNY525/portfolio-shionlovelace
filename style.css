@@ -1,18 +1,8 @@
-@font-face {
-    font-family: 'Kaisei Tokumin';
-    src: url(fonts/KaiseiTokumin-Regular.ttf) format('truetype');
-}
-
-
 body {
     background: #26282F;
     color: #FFFFFF;
-    font-family: 'Kaisei Tokumin', Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif
     /*margin: 20px 90px 20px 90px;*/
-}
-
-.intro{
-    font-size: 20px;
 }
 
 header{
@@ -81,5 +71,17 @@ a:hover {
     display: flex;
     gap: 4em;
     justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    font-size: 21px;
+    line-height: 1.35;
+}
+
+.title-header{
+    font-size: 40px;
+    text-shadow: #B0B0B0 1px 0 10px;
+    padding-left: 20px;
     align-items: center;
 }
