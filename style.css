@@ -86,11 +86,23 @@ a:hover {
     align-items: center;
 }
 
-.aboutme-paragraph{
+.aboutme-layout{
+    display: flex;
     margin: 2px 70px 50px 70px;;
     padding: 30px;
+    gap: 3em;
     line-height: 1.35;
     background: #252525;
     justify-content: center;
     align-items: center;
+}
+
+.aboutme-paragraph{
+    font-size: 17px;
+    /*margin: 2px 70px 50px 70px;;
+    padding: 30px;
+    line-height: 1.35;
+    background: #252525;
+    justify-content: center;
+    align-items: center;*/
 }
