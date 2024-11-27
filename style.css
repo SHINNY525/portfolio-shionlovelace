@@ -85,3 +85,12 @@ a:hover {
     padding-left: 20px;
     align-items: center;
 }
+
+.aboutme-paragraph{
+    margin: 2px 70px 50px 70px;;
+    padding: 30px;
+    line-height: 1.35;
+    background: #252525;
+    justify-content: center;
+    align-items: center;
+}
