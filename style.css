@@ -101,13 +101,9 @@ a:hover {
     font-size: 17px;
 }
 
-.projecttitle{
-    
-}
-
 .cardclash{
     background: #252525;
-    margin: 2px 70px 50px 70px;;
+    margin: 2px 70px 20px 70px;;
     padding: 10px 30px 30px 30px;
 }
 
@@ -116,4 +112,17 @@ a:hover {
     gap: 3em;
     font-size: 17px;
     line-height: 1.35;
+}
+
+.other-links{
+    color: #387aa3;
+    text-decoration: underline;
+}
+
+.other-links:hover {
+    color: #2c5f70;
+}
+
+.other-links:visited {
+    color: #2c5f70;
 }
