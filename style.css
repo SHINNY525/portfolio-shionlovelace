@@ -71,6 +71,12 @@ a:hover {
     text-decoration: underline;
 }
 
+.credits{
+    text-align: center;
+    font-size: 13.5px;
+    color: #B0B0B0;
+}
+
 .welcome-paragraph{
     margin: 2px 70px 50px 70px;;
     padding: 30px;
