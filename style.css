@@ -111,7 +111,9 @@ a:hover {
     display: flex;
     gap: 3em;
     font-size: 17px;
-    line-height: 1.35;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
 }
 
 .other-links{
@@ -125,4 +127,49 @@ a:hover {
 
 .other-links:visited {
     color: #2c5f70;
+}
+
+.eeriewoods{
+    background: #252525;
+    margin: 2px 70px 20px 70px;;
+    padding: 10px 30px 30px 30px;
+}
+
+.eeriewoods-text{
+    display: flex;
+    gap: 3em;
+    font-size: 17px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.haunted{
+    background: #252525;
+    margin: 2px 70px 20px 70px;;
+    padding: 10px 30px 30px 30px;
+}
+
+.haunted-text{
+    display: flex;
+    gap: 3em;
+    font-size: 17px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-game-ui{
+    background: #252525;
+    margin: 2px 70px 20px 70px;;
+    padding: 10px 30px 30px 30px;
+}
+
+.mobile-game-ui-text{
+    display: flex;
+    gap: 3em;
+    font-size: 17px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
 }
