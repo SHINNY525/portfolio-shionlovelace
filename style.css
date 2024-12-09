@@ -7,8 +7,9 @@ body {
 header{
     display: flex;
     justify-content: space-between;
-    margin: 0 70px 0 70px;
     border-bottom: 2px solid #FFFFFF;
+    max-width: 1140px; 
+    margin: 0 auto; 
 }
 
 .name-header{
@@ -77,7 +78,8 @@ a:hover {
 }
 
 .welcome-paragraph{
-    margin: 2px 70px 50px 70px;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 30px;
     background: #252525;
     display: flex;
@@ -92,7 +94,8 @@ a:hover {
 }
 
 .resumepreview{
-    margin: 2px 70px 20px 70px;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 10px 30px 30px 30px;
     background: #252525;
     text-align: center;
@@ -101,7 +104,8 @@ a:hover {
 
 .aboutme-layout{
     display: flex;
-    margin: 2px 70px 50px 70px;
+    max-width: 1100px;
+    margin: 0 auto; 
     padding: 30px;
     gap: 3em;
     line-height: 1.35;
@@ -116,7 +120,8 @@ a:hover {
 
 .cardclash{
     background: #252525;
-    margin: 2px 70px 20px 70px;
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
     padding: 10px 30px 30px 30px;
 }
 
@@ -144,7 +149,8 @@ a:hover {
 
 .eeriewoods{
     background: #252525;
-    margin: 2px 70px 20px 70px;;
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
     padding: 10px 30px 30px 30px;
 }
 
@@ -159,7 +165,8 @@ a:hover {
 
 .haunted{
     background: #252525;
-    margin: 2px 70px 20px 70px;;
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
     padding: 10px 30px 30px 30px;
 }
 
@@ -174,7 +181,8 @@ a:hover {
 
 .mobile-game-ui{
     background: #252525;
-    margin: 2px 70px 20px 70px;;
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
     padding: 10px 30px 30px 30px;
 }
 
@@ -187,25 +195,11 @@ a:hover {
     align-items: center;
 }
 
-.resumeview{
-    background: #252525;
-    margin: 2px 70px 20px 70px;;
-    padding: 10px 30px 30px 30px;
-}
-
-.resumeview-text{
-    display: flex;
-    gap: 3em;
-    font-size: 17px;
-    line-height: 1.5;
-    justify-content: center;
-    align-items: center;
-}
-
 .contact-information{
     background-color: #252525;
-    margin: 2px 70px 50px 70px;;
-    padding: 0 30px 30px 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px 30px 30px; 
 }
 
 .gmail{
@@ -255,24 +249,73 @@ textarea{
     background-color: #2e6680;
 }
 
-@media (max-width: 768px) {
-    .aboutme-layout {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .aboutme-image {
-        width: 80%; /* Smaller images for smaller screens */
-        margin-bottom: 20px;
-    }
-
+@media screen and (max-width: 768px) {
     .navigation li {
-        display: block;
-        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
     .two-logos {
         gap: 10px;
+    }
+
+    nav {
+        padding: 5px;
+        position: relative;
+    }
+
+    .navigation {
+        flex-direction: column; 
+        gap: 1em; 
+        font-size: 18px; 
+    }
+
+    a {
+        padding: 5px 0; 
+    }
+
+    .navigation li {
+        text-align: center;
+    }
+    
+    .welcome-paragraph {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .aboutme-layout {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .gametitles{
+        text-align: center;
+    }
+
+    .cardclash-text{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px 30px 30px;
+    }
+
+    .eeriewoods-text{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px 30px 30px;
+    }
+
+    .haunted-text{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px 30px 30px;
+    }
+
+    .mobile-game-ui-text{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px 30px 30px;
     }
 }
