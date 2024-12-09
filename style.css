@@ -78,7 +78,7 @@ a:hover {
 }
 
 .welcome-paragraph{
-    margin: 2px 70px 50px 70px;;
+    margin: 2px 70px 50px 70px;
     padding: 30px;
     background: #252525;
     display: flex;
@@ -92,9 +92,17 @@ a:hover {
     line-height: 1.35;
 }
 
+.resumepreview{
+    margin: 2px 70px 20px 70px;
+    padding: 10px 30px 30px 30px;
+    background: #252525;
+    text-align: center;
+    text-decoration: underline #B0B0B0;
+}
+
 .aboutme-layout{
     display: flex;
-    margin: 2px 70px 50px 70px;;
+    margin: 2px 70px 50px 70px;
     padding: 30px;
     gap: 3em;
     line-height: 1.35;
@@ -109,7 +117,7 @@ a:hover {
 
 .cardclash{
     background: #252525;
-    margin: 2px 70px 20px 70px;;
+    margin: 2px 70px 20px 70px;
     padding: 10px 30px 30px 30px;
 }
 
@@ -172,6 +180,21 @@ a:hover {
 }
 
 .mobile-game-ui-text{
+    display: flex;
+    gap: 3em;
+    font-size: 17px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeview{
+    background: #252525;
+    margin: 2px 70px 20px 70px;;
+    padding: 10px 30px 30px 30px;
+}
+
+.resumeview-text{
     display: flex;
     gap: 3em;
     font-size: 17px;
