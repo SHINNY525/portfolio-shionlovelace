@@ -255,3 +255,11 @@ textarea{
 .submit-button:hover {
     background-color: #2e6680;
 }
+
+@media screen and (max-width: 616px) {
+    header {
+      background: #ED254E;
+      display: block;
+      padding: 0;
+    }
+}
